@@ -1,3 +1,29 @@
 body {
 	background-color: #b2b9bf;
 }
+
+h1, p {
+	color: #343538;
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 30px;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+.content {
+	width: 50%;
+	background-color: #cccccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+}
