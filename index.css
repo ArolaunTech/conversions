@@ -2,7 +2,7 @@ body {
 	background-color: #b2b9bf;
 }
 
-h1, p {
+h1, p, .initial, .internalhead {
 	color: #343538;
 }
 
@@ -11,19 +11,62 @@ h1 {
 	font-size: 30px;
 }
 
-p {
+p, .initial {
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 }
 
 .content {
-	width: 50%;
 	background-color: #cccccc;
-	padding: 10px;
+}
+
+.bordercircle {
 	border-radius: 5px;
+}
+
+.light {
+	background-color: #ddd;
+}
+
+.lighter {
+	background-color: #e6e6e6;
+}
+
+.halfw {
+	width: 50%;
+}
+
+.marginfull {
+	padding: 10px;
+}
+
+.marginhalf {
+	padding: 2px;
+}
+
+.margintwohalves {
+	padding: 3px;
 }
 
 .centered {
 	display: flex;
 	justify-content: center;
+}
+
+.initial {
+	font-weight: bold;
+	border: 0px;
+	width: 70px;
+	margin-right: 0px;
+}
+
+.internalhead {
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.initr {
+	width: 100px;
+	margin-left: 3px;
 }
