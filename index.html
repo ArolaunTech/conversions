@@ -22,8 +22,8 @@
 				<h3 class="internalhead">Initial units</h3>
 				<div class="centered">
 					<div class="content light marginhalf bordercircle">
-						<input type="number" class="initial lighter bordercircle"/>
-						<input list="units" type="text" class="initial initr lighter bordercircle"/>
+						<input type="number" class="initial lighter bordercircle noborder"/>
+						<input list="units" type="text" class="initial initr lighter bordercircle noborder"/>
 
 						<datalist id="units">
 							<option value="miles"></option>
@@ -31,9 +31,11 @@
 					</div>
 				</div>
 				<p>
-					Let's see what 
-					<span class="light margintwohalves bordercircle">1 mile</span>
-					 can turn into...
+					Let's see how much
+					<span class="light margintwohalves bordercircle" id="inputdisplay"></span>
+					&nbsp;can
+					<span><button class="lighter noborder bordercircle">increase</button></span>
+					if you convert it:
 				</p>
 			</div>
 		</div>
