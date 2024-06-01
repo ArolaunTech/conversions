@@ -2,7 +2,6 @@
 internalNameSingular: "meter"
 internalNamePlural: "meters"
 SIconversion: 1
-
 unitType: "length"
 
 abbreviations:
@@ -14,7 +13,6 @@ abbreviations:
 internalNameSingular: "kilometer"
 internalNamePlural: "kilometers"
 SIconversion: 1000
-
 unitType: "length"
 
 abbreviations:
@@ -23,13 +21,89 @@ abbreviations:
   - "km"
 
 ---
+internalNameSingular: "centimeter"
+internalNamePlural: "centimeters"
+SIconversion: 0.01
+unitType: "length"
+
+abbreviations:
+  - "centimeter"
+  - "centimeters"
+  - "cm"
+
+---
 internalNameSingular: "foot"
 internalNamePlural: "feet"
 SIconversion: 0.3048
-
 unitType: "length"
 
 abbreviations:
   - "foot"
   - "feet"
   - "ft"
+
+---
+internalNameSingular: "fathom"
+internalNamePlural: "fathoms"
+SIconversion: 1.8288
+unitType: "length"
+
+abbreviations:
+  - "fathom"
+  - "fathoms"
+  - "ftm"
+
+---
+internalNameSingular: "inch"
+internalNamePlural: "inches"
+SIconversion: 0.0254
+unitType: "length"
+
+abbreviations:
+  - "inch"
+  - "inches"
+  - "in"
+
+---
+internalNameSingular: "thou"
+internalNamePlural: "thou"
+SIconversion: 0.0000254
+unitType: "length"
+
+abbreviations:
+  - "mil"
+  - "mils"
+  - "thou"
+
+---
+internalNameSingular: "yard"
+internalNamePlural: "yards"
+SIconversion: 0.9144
+unitType: "length"
+
+abbreviations:
+  - "yard"
+  - "yards"
+  - "yd"
+
+---
+internalNameSingular: "mile"
+internalNamePlural: "miles"
+SIconversion: 1609.344
+unitType: "length"
+
+abbreviations:
+  - "mile"
+  - "miles"
+  - "mi"
+
+---
+internalNameSingular: "kilogram"
+internalNamePlural: "kilograms"
+SIconversion: 1
+unitType: "mass"
+
+abbreviations:
+  - "kilogram"
+  - "kilograms"
+  - "kg"
