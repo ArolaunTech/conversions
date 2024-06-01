@@ -22,22 +22,37 @@
 				<h3 class="internalhead">Initial units</h3>
 				<div class="centered">
 					<div class="content light marginhalf bordercircle">
-						<input type="number" class="initial lighter bordercircle noborder"/>
-						<input list="units" type="text" class="initial initr lighter bordercircle noborder"/>
+						<input id="numberin" type="number" class="initial lighter bordercircle noborder" value="1" min="0"/>
+						<input id="unitin" list="units" type="text" class="initial initr lighter bordercircle noborder" value="meter"/>
 
 						<datalist id="units">
-							<option value="miles"></option>
 						</datalist>
 					</div>
 				</div>
+				<br/>
+				<div class="centered">
+					<label for="numConversions">Maximum Conversions: </label>
+					<input type="range" min="1" max="49" step="1" value="1" id="numConversions"/>
+				</div>
+
 				<p>
-					Let's see how much
-					<span class="light margintwohalves bordercircle" id="inputdisplay"></span>
-					&nbsp;can
-					<span><button class="lighter noborder bordercircle">increase</button></span>
-					if you convert it:
+					Let's see how much this can
+					<button id="incDecButton" class="lighterbutton noborder bordercircle">increase</button>
+					to if you convert it up to<span class="bordercircle light margintwohalves" id="numConversionsDisplay">50</span> times:
 				</p>
+
+				<div id="outputDisplay">
+					<p class="result">
+						1 meter (+0.0%)
+					</p>
+					<p class="result">
+						1 fathom (+82.8%)
+					</p>
+				</div>
 			</div>
 		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
+		<script src="javascripts/main.js"></script>
 	</body>
 </html>

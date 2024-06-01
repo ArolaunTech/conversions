@@ -1,0 +1,35 @@
+---
+internalNameSingular: "meter"
+internalNamePlural: "meters"
+SIconversion: 1
+
+unitType: "length"
+
+abbreviations:
+  - "meter"
+  - "meters"
+  - "m"
+
+---
+internalNameSingular: "kilometer"
+internalNamePlural: "kilometers"
+SIconversion: 1000
+
+unitType: "length"
+
+abbreviations:
+  - "kilometer"
+  - "kilometers"
+  - "km"
+
+---
+internalNameSingular: "foot"
+internalNamePlural: "feet"
+SIconversion: 0.3048
+
+unitType: "length"
+
+abbreviations:
+  - "foot"
+  - "feet"
+  - "ft"

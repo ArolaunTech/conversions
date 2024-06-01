@@ -2,7 +2,7 @@ body {
 	background-color: #b2b9bf;
 }
 
-h1, p, .initial, .internalhead, button {
+h1, p, .initial, .internalhead, button, label {
 	color: #343538;
 }
 
@@ -11,7 +11,7 @@ h1 {
 	font-size: 30px;
 }
 
-p, .initial, button {
+p, .initial, button, label {
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 }
@@ -72,4 +72,126 @@ p, .initial, button {
 
 .noborder {
 	border: 0px;
+}
+
+.lighterbutton {
+	background-color: #e6e6e6;
+}
+
+.lighterbutton:hover {
+	background-color: #ddd;
+}
+
+.result {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 5px;
+}
+
+/*Thanks to https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/*/
+#numConversions {
+  -webkit-appearance: none;
+  margin: 1px 10;
+  padding: 5px;
+  width: 200px;
+  appearance: none;
+  background: transparent;
+}
+
+#numConversions::-webkit-slider-runnable-track {
+  width: 200px;
+  height: 5px;
+  cursor: pointer;
+  background: #444;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+#numConversions::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  height: 16px;
+  width: 10px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+
+#numConversions::-moz-range-track {
+  width: 200px;
+  height: 8.4px;
+  cursor: pointer;
+  background: #444;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+#numConversions::-moz-range-thumb {
+  border: 1px solid #000000;
+  height: 16px;
+  width: 10px;
+  border-radius: 3px;
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+#numConversions::-ms-track {
+  width: 200px;
+  height: 5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+#numConversions::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+}
+
+#numConversions::-ms-fill-upper {
+  background: #444;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+}
+
+#numConversions::-ms-thumb {
+  border: 1px solid #000000;
+  height: 16px;
+  width: 10px;
+  border-radius: 3px;
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+#numConversions:focus::-ms-fill-lower {
+  background: #444;
+}
+
+#numConversions:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+
+.positive {
+	color: #32a852;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.negative {
+	color: #cf3259;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.error {
+	color: #cf3259;
+}
+
+.unitArrow {
+	margin-top, margin-bottom: 5px;
 }
